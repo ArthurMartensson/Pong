@@ -12,7 +12,8 @@ public class CameraAspectScript : MonoBehaviour
         float screen_aspect = cam.aspect;
         if (screen_aspect < desired_aspect)
         {
-            float y = 0.5f - screen_aspect / (2 * desired_aspect); float h = screen_aspect / desired_aspect; cam.rect = new Rect(0, y, 1, h);
+            float y = 0.5f - screen_aspect / (2 * desired_aspect);
+            float h = screen_aspect / desired_aspect; cam.rect = new Rect(0, y, 1, h);
         }
         else
         {
