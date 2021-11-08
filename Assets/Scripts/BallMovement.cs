@@ -22,6 +22,15 @@ public class BallMovement : MonoBehaviour
             up = 1;
         transform.Translate((up * Vector3.up + right * Vector3.right)
             * Time.deltaTime * speed);
+
+        if (transform.position.x < -9.1)
+        {
+            transform.position = Vector3.zero;
+        }
+        if (transform.position.x > 9.1)
+        {
+            transform.position = Vector3.zero;
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D other)
