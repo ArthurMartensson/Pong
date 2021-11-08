@@ -54,6 +54,8 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Assets/Scripts/CameraAspectScript.cs" />
+    <Compile Include="Assets/Scripts/PaddleMovement.cs" />
+    <Compile Include="Assets/Scripts/BallMovement.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
