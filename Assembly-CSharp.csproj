@@ -54,9 +54,12 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Assets/Scripts/CameraAspectScript.cs" />
+    <Compile Include="Assets/Scripts/ScoreManager.cs" />
     <Compile Include="Assets/Scripts/PaddleMovement.cs" />
     <Compile Include="Assets/Scripts/BallMovement.cs" />
-    <Compile Include="Assets/Scripts/ScoreManager.cs" />
+    <Compile Include="Assets/Scripts/StartButton.cs" />
+    <Compile Include="Assets/Scripts/ExitToMainMenu.cs" />
+    <Compile Include="Assets/Scripts/QuitButton.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

@@ -1,9 +1,12 @@
 ﻿<Properties StartupConfiguration="{59972000-A102-93F3-E252-4AFE00D882C8}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/BallMovement.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/QuitButton.cs">
     <Files>
-      <File FileName="Assets/Scripts/BallMovement.cs" Line="34" Column="2" />
-      <File FileName="Assets/Scripts/PaddleMovement.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/ScoreManager.cs" Line="37" Column="28" />
+      <File FileName="Assets/Scripts/BallMovement.cs" Line="43" Column="10" />
+      <File FileName="Assets/Scripts/PaddleMovement.cs" Line="27" Column="31" />
+      <File FileName="Assets/Scripts/ScoreManager.cs" Line="48" Column="10" />
+      <File FileName="Assets/Scripts/StartButton.cs" Line="8" Column="25" />
+      <File FileName="Assets/Scripts/ExitToMainMenu.cs" Line="13" Column="44" />
+      <File FileName="Assets/Scripts/QuitButton.cs" Line="8" Column="12" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -11,7 +14,7 @@
           <Node name="Pong" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="BallMovement.cs" selected="True" />
+                <Node name="QuitButton.cs" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -21,7 +24,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="fe651ed7-2b5d-4209-8cd4-ba5df3aa60c3" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="bf643209-258c-430c-bde9-943ccbd52844" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
